@@ -1,9 +1,10 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 const Error = () => {
   return (
     <div>
-      <h1>Error Page</h1>
+      <h1>Error 404 Page not found</h1>
+      <Link to="/">Return Home</Link>
     </div>
   );
 };
